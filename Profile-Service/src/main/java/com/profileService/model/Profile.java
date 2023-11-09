@@ -1,7 +1,9 @@
 package com.profileService.model;
 
 import java.time.LocalDate;
-import org.springframework.data.annotation.Id;
+
+import javax.persistence.Id;
+
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document
